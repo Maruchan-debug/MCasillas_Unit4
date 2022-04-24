@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyPrefab: {fileID: 2215985704111761492, guid: 4ce1db8283289b047bbaae723bf76e71,
     type: 3}
+  powerUpPrefab: {fileID: 888204667}
   spawnRange: 8.5
 --- !u!4 &101930272
 Transform:
@@ -277,6 +278,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+--- !u!1 &888204667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 726903491847012023, guid: cd78ebd93d2feb94f8bfa6adee8a501d,
+    type: 3}
+  m_PrefabInstance: {fileID: 725721502552363737}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1151514987
 PrefabInstance:
   m_ObjectHideFlags: 0
